@@ -14,4 +14,8 @@ This project serves as PCB bringup for the Cygnus chip taped-out in 2024 Q2. The
 2. SerialTL interface
 3. Testpoints
 4. DDR considerations
-5. Power Supply considerations
+5. Power Supply # Cygnus-Bringup
+
+## PCB
+
+[Altium 365](https://ucb-bar.365.altium.com/designs/48DF959B-C662-42B1-99D3-1AA11DF22FD2#design)
