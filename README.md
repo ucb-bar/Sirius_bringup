@@ -116,5 +116,7 @@ Except for power domain, this circuit is isolated to the core circuitry.
 
 
 
+Layout will be done in millimeters (mm)
+
 
 
