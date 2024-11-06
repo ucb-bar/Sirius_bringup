@@ -98,6 +98,23 @@ Decide to allocate a small portion of PCB area to test circuit. This is used to 
 Except for power domain, this circuit is isolated to the core circuitry.
 
 
+## FMC Pinout
+
+
+| Signal                    | FMC Net Name  | FMC Pin | FPGA Pin (Nexys Video)  | Notes |
+| ---                       | ---           | ---     | ---                     | ---   |
+| serial_tl_clock           | LA_00_P_CC    | G6      |                      |       |
+| serial_tl_in_valid        | LA_03_P       | G9      |                      |       |
+| serial_tl_in_ready        | LA_03_N       | G10     |                      |       |
+| serial_tl_in_bits\[0\]    | LA_08_P       | G12     |                      |       |
+| serial_tl_out_valid       | LA_02_P       | H7      |                      |       |
+| serial_tl_out_ready       | LA_02_N       | H8      |                      |       |
+| serial_tl_out_bits\[0\]   | LA_04_P       | H10     |                      |       |
+| reset                     |        |      |                      |       |
+| uart_rx                   |        |       |                      | via selection jumper |
+| uart_tx                   |        |       |                      | via selection jumper |
+
+
 
 ## PCB Layout
 
