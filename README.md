@@ -122,14 +122,14 @@ Except for power domain, this circuit is isolated to the core circuitry.
 
 | Index | Layer Name | Material | Thickness | Purpose    |
 | ----- | ---------- | -------- | --------- | ---------- |
-| 1     | Top        |          |           | Signal     |
+| 1     | Top        |          |           | High Speed Signals, DDR + Clock + SerialTL, U1     |
 | 2     | In1        |          |           | GND        |
-| 3     | In2        |          |           | Signal     |
-| 4     | In3        |          |           | VDD_D      |
-| 5     | In4        |          |           | Other VDDs |
-| 6     | In5        |          |           | Signal     |
-| 7     | In6        |          |           | GND        |
-| 8     | Bottom     |          |           | Signal     |
+| 3     | In2        |          |           | Low Speed Signals, U1 + U2     |
+| 4     | In3        |          |           | VDD_IO + VDD_pre + VDDQ      |
+| 5     | In4        |          |           | Ground |
+| 6     | In5        |          |           | VDD_core for U1 + U2|
+| 7     | In6        |          |           | GND |
+| 8     | Bottom |          |           | High Speed Signals, DDR + Clock + SerialTL, U2     |
 
 
 
