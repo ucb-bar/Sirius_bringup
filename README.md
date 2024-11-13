@@ -18,14 +18,12 @@ This project serves as PCB bringup for the Cygnus chip taped-out in 2024 Q2. The
 
 ## PCB
 
+Stackup: JLC10121H-2116
+
+![image](https://github.com/user-attachments/assets/1afafd02-04cb-4e4b-8178-765cd3bba34f)
+
+
 [Altium 365](https://ucb-bar.365.altium.com/designs/48DF959B-C662-42B1-99D3-1AA11DF22FD2#design)
-
-
-## To Be Confirmed
-
- - [ ] reset polarity
- - [ ] VDD_DDR voltage level
-
 
 
 ## Bringup FPGA
