@@ -1,3 +1,6 @@
+
+TODO: breakout U2 two DDR power domains to a connection through an area pour; float singals
+
 # Cygnus bringup
 
 This project serves as PCB bringup for the Cygnus chip taped-out in 2024 Q2. The Cygnus chip is a pair of 4x4 $mm^2$ chiplets on the same package on a 16nm process. The chip is designed to be a low-power, high-performance chip for DSP computing applications, and to showcase scalability of the chiplet architecture for future AI applications.
@@ -158,13 +161,15 @@ All DDR digital signals broke out to a pin header. This is only present for chip
 | 1     | L1         | High Speed Signals, DDR + Clock + SerialTL, U1     |
 | 2     | L2         | GND        |
 | 3     | L3         | Low Speed Signals, U1 + U2     |
-| 4     | L4         | GND      |
-| 5     | L5         | VDD_IO |
-| 6     | L6         | VDD_pre + VDDQ      |
-| 7     | L7         | Ground |
-| 8     | L8         | VDD_core for U1 + U2|
-| 9     | L9         | GND |
+| 4     | L4         | GND        |
+| 5     | L5         | VDD_IO (polygon/trace) + VDD_core for U2 |
+| 6     | L6         | VDD_pre + VDDQ + other DDR |
+| 7     | L7         | GND        |
+| 8     | L8         | VDD_core for U1 |
+| 9     | L9         | GND        |
 | 10    | L10        | High Speed Signals, DDR + Clock + SerialTL, U2     |
+
+GND: add stiching between the 4 ground layers
 
 
 Stackup: JLC10121H-2116
