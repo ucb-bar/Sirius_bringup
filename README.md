@@ -171,9 +171,12 @@ Stackup: JLC10121H-2116
 
 ![image](https://github.com/user-attachments/assets/1afafd02-04cb-4e4b-8178-765cd3bba34f)
 
-
-
 Layout will be done in millimeters (mm)
+
+Regarding JLC layout service: not optimal, since it's priced by pad count, and we have a lot of powers and grounds
+
+![image](https://github.com/user-attachments/assets/86504560-fe81-4c28-8409-59f4a71c6305)
+
 
 
 
