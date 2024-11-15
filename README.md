@@ -1,6 +1,3 @@
-
-TODO: breakout U2 two DDR power domains to a connection through an area pour; float singals
-
 # Cygnus bringup
 
 This project serves as PCB bringup for the Cygnus chip taped-out in 2024 Q2. The Cygnus chip is a pair of 4x4 $mm^2$ chiplets on the same package on a 16nm process. The chip is designed to be a low-power, high-performance chip for DSP computing applications, and to showcase scalability of the chiplet architecture for future AI applications.
