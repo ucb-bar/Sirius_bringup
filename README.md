@@ -168,7 +168,6 @@ All DDR digital signals broke out to a pin header. This is only present for chip
 
 GND: add stiching between the 4 ground layers
 
-
 Stackup: JLC10121H-2116
 
 ![image](https://github.com/user-attachments/assets/1afafd02-04cb-4e4b-8178-765cd3bba34f)
@@ -178,6 +177,82 @@ Layout will be done in millimeters (mm)
 Regarding JLC layout service: not optimal, since it's priced by pad count, and we have a lot of powers and grounds
 
 ![image](https://github.com/user-attachments/assets/86504560-fe81-4c28-8409-59f4a71c6305)
+
+
+### Component Placement
+
+FMC indentation is at the bottom, which matches the FPGA.
+
+![image](https://github.com/user-attachments/assets/ad526316-984a-4c10-842a-c84461a6de1a)
+
+![image](https://github.com/user-attachments/assets/da2ad535-89ee-487b-97ee-53b2d79084bb)
+
+
+
+### Power
+
+For core and IO power, wide trace on top layer to connect pins together, and then via down as much as possible
+
+![image](https://github.com/user-attachments/assets/726bd001-fe69-4c2d-8e63-4aea626eed7e)
+
+Decoupling capacitors at the bottom layer, with mechanical clearance to the backplate pattern.
+
+![image](https://github.com/user-attachments/assets/65efc4c2-5b59-4c8d-a117-f64c5cb7385f)
+
+VDD_IO net
+
+![image](https://github.com/user-attachments/assets/d93ec7ea-30db-445e-bcfa-bfcb095e9b9b)
+
+
+
+
+
+DDL_IBAS need a narrow trace to connect to pin
+
+![image](https://github.com/user-attachments/assets/30298153-74fc-4614-93d2-c33a54c7e88c)
+
+
+### DDR Routing
+
+using calculated 50R trace, 0.186 mm, diff routing to SMA receivers
+
+![image](https://github.com/user-attachments/assets/b5cc49c5-96ef-4be0-984f-30000e65402c)
+
+Due to signal congestion, had to disconnect 1 VDD_IO pin and 2 GND pin.
+
+![image](https://github.com/user-attachments/assets/702b4ce9-a479-4149-8861-3548e38a4119)
+
+### System Clock Routing
+
+SMA directly to pin, with 50R resistor placed close to socket.
+
+![image](https://github.com/user-attachments/assets/f0595b78-fc05-4905-84dc-42db8225caab)
+
+### C2C connect
+
+need to use both L3 and L10 layer
+
+![image](https://github.com/user-attachments/assets/8371a78b-92db-4ffa-8e30-910db2c93d4c)
+
+### Via Stiching
+
+Entire board is GND stiched with 4mm spacing vias.
+
+### DRC Check
+
+![image](https://github.com/user-attachments/assets/a9bc0c2f-f619-455b-8f68-efbeabc1f78f)
+
+12 DRCs are due to banana connector silkscreen out of board, which is fine.
+
+1 DRC is FMC connector silkscreen too close to the mechanical hole, which is fine.
+
+
+## Feedback for future chips
+
+Design the bumpmap / interposer with PCB routing in mind! Put high speed signals or nets that require wide traces around the edge of the pin map.
+
+
+
 
 
 
