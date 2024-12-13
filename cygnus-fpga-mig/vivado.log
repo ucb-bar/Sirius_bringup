@@ -1,0 +1,59 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Dec 13 08:42:13 2024
+# Process ID: 2492704
+# Current directory: /bwrcq/C/vikramj/Cygnus-Bringup/cygnus-fpga-mig
+# Command line: vivado
+# Log file: /bwrcq/C/vikramj/Cygnus-Bringup/cygnus-fpga-mig/vivado.log
+# Journal file: /bwrcq/C/vikramj/Cygnus-Bringup/cygnus-fpga-mig/vivado.jou
+# Running On: bwrc-amd1, OS: Linux, CPU Frequency: 1255.499 MHz, CPU Physical cores: 32, Host memory: 1081965 MB
+#-----------------------------------------------------------
+INFO: [Common 17-724] Xilinx Tcl Store apps are automatically updated.
+start_gui
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /bwrcq/commercial/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at /bwrcq/commercial/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at /bwrcq/commercial/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at /bwrcq/commercial/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at /bwrcq/commercial/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /bwrcq/commercial/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /bwrcq/commercial/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at /bwrcq/commercial/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /bwrcq/commercial/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+open_project /bwrcq/C/vikramj/maveric-bringup/maveric-fpga-mig/NexysVideoHarness.xpr
+INFO: [Project 1-313] Project file moved from '/scratch/sakim/maveric-fpga-mig' since last save.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory '/bwrcq/C/vikramj/maveric-bringup/maveric-fpga-mig/NexysVideoHarness.gen/sources_1'.
+WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory '/bwrcq/C/vikramj/maveric-bringup/maveric-fpga-mig/NexysVideoHarness.ip_user_files'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/bwrcq/C/vikramj/maveric-bringup/rtml-bringup/generators/sifive-blocks/vsrc/SRLatch.v', nor could it be found using path '/scratch/sakim/rtml-bringup/generators/sifive-blocks/vsrc/SRLatch.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/bwrcq/C/vikramj/maveric-bringup/rtml-bringup/fpga/fpga-shells/xilinx/nexys_video/constraints/nexys-video-config.xdc', nor could it be found using path '/scratch/sakim/rtml-bringup/fpga/fpga-shells/xilinx/nexys_video/constraints/nexys-video-config.xdc'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/bwrcq/C/vikramj/maveric-bringup/rtml-bringup/fpga/fpga-shells/xilinx/nexys_video/constraints/nexys-video-master.xdc', nor could it be found using path '/scratch/sakim/rtml-bringup/fpga/fpga-shells/xilinx/nexys_video/constraints/nexys-video-master.xdc'.
+Scanning sources...
+Finished scanning sources
+CRITICAL WARNING: [Project 1-192] Failed to load run synth_1. Strategy Vivado Synthesis Defaults (Vivado Synthesis 2023) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run impl_1. Strategy Vivado Implementation Defaults (Vivado Implementation 2023) not recognized by Vivado. 
+
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/bwrcq/C/vikramj/maveric-bringup/maveric-fpga-mig/obj/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/xilinx/Vivado/2022.2/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'harnessSysPLLNode' generated file not found '/bwrcq/C/vikramj/maveric-bringup/maveric-fpga-mig/obj/ip/harnessSysPLLNode/harnessSysPLLNode.veo'. Please regenerate to continue.
+WARNING: [IP_Flow 19-2162] IP 'harnessSysPLLNode' is locked:
+* Project containing IP 'harnessSysPLLNode' is read-only. * IP definition 'Clocking Wizard (6.0)' for IP 'harnessSysPLLNode' (customized with software release 2023.1) has a different revision in the IP Catalog. * This IP has board specific outputs. Current project board 'unset' and the board 'digilentinc.com:nexys_video:part0:1.1' used to customize the IP 'harnessSysPLLNode' do not match.
+WARNING: [IP_Flow 19-3664] IP 'nexysvideomig' generated file not found '/bwrcq/C/vikramj/maveric-bringup/maveric-fpga-mig/obj/ip/nexysvideomig/nexysvideomig.veo'. Please regenerate to continue.
+WARNING: [IP_Flow 19-2162] IP 'nexysvideomig' is locked:
+* Project containing IP 'nexysvideomig' is read-only. * This IP has board specific outputs. Current project board 'unset' and the board 'digilentinc.com:nexys_video:part0:1.1' used to customize the IP 'nexysvideomig' do not match.
+WARNING: [IP_Flow 19-3664] IP 'mmcm' generated file not found '/bwrcq/C/vikramj/maveric-bringup/maveric-fpga-mig/obj/ip/mmcm/mmcm.veo'. Please regenerate to continue.
+WARNING: [IP_Flow 19-2162] IP 'mmcm' is locked:
+* Project containing IP 'mmcm' is read-only. * IP definition 'Clocking Wizard (6.0)' for IP 'mmcm' (customized with software release 2023.1) has a different revision in the IP Catalog. * This IP has board specific outputs. Current project board 'unset' and the board 'digilentinc.com:nexys_video:part0:1.1' used to customize the IP 'mmcm' do not match.
+WARNING: [IP_Flow 19-3664] IP 'reset_sys' generated file not found '/bwrcq/C/vikramj/maveric-bringup/maveric-fpga-mig/obj/ip/reset_sys/reset_sys.vho'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'reset_sys' generated file not found '/bwrcq/C/vikramj/maveric-bringup/maveric-fpga-mig/obj/ip/reset_sys/reset_sys.veo'. Please regenerate to continue.
+WARNING: [IP_Flow 19-2162] IP 'reset_sys' is locked:
+* Project containing IP 'reset_sys' is read-only. * This IP has board specific outputs. Current project board 'unset' and the board 'digilentinc.com:nexys_video:part0:1.1' used to customize the IP 'reset_sys' do not match.
+WARNING: [IP_Flow 19-3664] IP 'ila' generated file not found '/bwrcq/C/vikramj/maveric-bringup/maveric-fpga-mig/obj/ip/ila/ila.veo'. Please regenerate to continue.
+WARNING: [IP_Flow 19-2162] IP 'ila' is locked:
+* Project containing IP 'ila' is read-only. * IP definition 'ILA (Integrated Logic Analyzer) (6.2)' for IP 'ila' (customized with software release 2023.1) has a different revision in the IP Catalog.
+WARNING: [Project 1-231] Project 'NexysVideoHarness.xpr' was created with a future version and may or may not perform reliably with this version of Vivado. It has been opened in read-only mode for the protection of unrecognized data. Use 'File | Save Project As...' if you wish to alter a copy of the project.
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Dec 13 09:08:18 2024...

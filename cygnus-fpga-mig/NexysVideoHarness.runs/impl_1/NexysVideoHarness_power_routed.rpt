@@ -1,0 +1,188 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version     : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date             : Fri Dec 13 09:14:57 2024
+| Host             : bwrc-amd1 running 64-bit Ubuntu 20.04.6 LTS
+| Command          : report_power -file NexysVideoHarness_power_routed.rpt -pb NexysVideoHarness_power_summary_routed.pb -rpx NexysVideoHarness_power_routed.rpx
+| Design           : NexysVideoHarness
+| Device           : xc7a200tsbg484-1
+| Design State     : routed
+| Grade            : commercial
+| Process          : typical
+| Characterization : Production
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Power Report
+
+Table of Contents
+-----------------
+1. Summary
+1.1 On-Chip Components
+1.2 Power Supply Summary
+1.3 Confidence Level
+2. Settings
+2.1 Environment
+2.2 Clock Constraints
+3. Detailed Reports
+3.1 By Hierarchy
+
+1. Summary
+----------
+
++--------------------------+--------------+
+| Total On-Chip Power (W)  | 0.949        |
+| Design Power Budget (W)  | Unspecified* |
+| Power Budget Margin (W)  | NA           |
+| Dynamic (W)              | 0.799        |
+| Device Static (W)        | 0.150        |
+| Effective TJA (C/W)      | 3.3          |
+| Max Ambient (C)          | 81.9         |
+| Junction Temperature (C) | 28.1         |
+| Confidence Level         | Low          |
+| Setting File             | ---          |
+| Simulation Activity File | ---          |
+| Design Nets Matched      | NA           |
++--------------------------+--------------+
+* Specify Design Power Budget using, set_operating_conditions -design_power_budget <value in Watts>
+
+
+1.1 On-Chip Components
+----------------------
+
++--------------------------+-----------+----------+-----------+-----------------+
+| On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
++--------------------------+-----------+----------+-----------+-----------------+
+| Clocks                   |     0.047 |       26 |       --- |             --- |
+| Slice Logic              |     0.010 |    27906 |       --- |             --- |
+|   LUT as Logic           |     0.009 |     9198 |    133800 |            6.87 |
+|   LUT as Distributed RAM |    <0.001 |     2170 |     46200 |            4.70 |
+|   Register               |    <0.001 |    10534 |    269200 |            3.91 |
+|   CARRY4                 |    <0.001 |      276 |     33450 |            0.83 |
+|   LUT as Shift Register  |    <0.001 |      203 |     46200 |            0.44 |
+|   F7/F8 Muxes            |    <0.001 |      508 |    133800 |            0.38 |
+|   Others                 |    <0.001 |      710 |       --- |             --- |
+| Signals                  |     0.013 |    20775 |       --- |             --- |
+| MMCM                     |     0.202 |        2 |        10 |           20.00 |
+| PLL                      |     0.091 |        1 |        10 |           10.00 |
+| I/O                      |     0.297 |       67 |       285 |           23.51 |
+| PHASER                   |     0.134 |       14 |       --- |             --- |
+| XADC                     |     0.004 |        1 |       --- |             --- |
+| Static Power             |     0.150 |          |           |                 |
+| Total                    |     0.949 |          |           |                 |
++--------------------------+-----------+----------+-----------+-----------------+
+
+
+1.2 Power Supply Summary
+------------------------
+
++-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
+| Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
++-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
+| Vccint    |       1.000 |     0.147 |       0.113 |      0.034 |       NA    | Unspecified | NA         |
+| Vccaux    |       1.800 |     0.305 |       0.274 |      0.031 |       NA    | Unspecified | NA         |
+| Vcco33    |       3.300 |     0.006 |       0.001 |      0.005 |       NA    | Unspecified | NA         |
+| Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| Vcco15    |       1.500 |     0.131 |       0.126 |      0.005 |       NA    | Unspecified | NA         |
+| Vcco135   |       1.350 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| Vcco12    |       1.200 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| Vccaux_io |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| Vccbram   |       1.000 |     0.001 |       0.000 |      0.001 |       NA    | Unspecified | NA         |
+| MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| Vccadc    |       1.800 |     0.022 |       0.002 |      0.020 |       NA    | Unspecified | NA         |
++-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
+
+
+1.3 Confidence Level
+--------------------
+
++-----------------------------+------------+--------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
+| User Input Data             | Confidence | Details                                                | Action                                                                                                     |
++-----------------------------+------------+--------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
+| Design implementation state | High       | Design is routed                                       |                                                                                                            |
+| Clock nodes activity        | High       | User specified more than 95% of clocks                 |                                                                                                            |
+| I/O nodes activity          | Low        | More than 75% of inputs are missing user specification | Provide missing input activity with simulation results or by editing the "By Resource Type -> I/Os" view   |
+| Internal nodes activity     | Medium     | User specified less than 25% of internal nodes         | Provide missing internal nodes activity with simulation results or by editing the "By Resource Type" views |
+| Device models               | High       | Device models are Production                           |                                                                                                            |
+|                             |            |                                                        |                                                                                                            |
+| Overall confidence level    | Low        |                                                        |                                                                                                            |
++-----------------------------+------------+--------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
+
+
+2. Settings
+-----------
+
+2.1 Environment
+---------------
+
++-----------------------+--------------------------+
+| Ambient Temp (C)      | 25.0                     |
+| ThetaJA (C/W)         | 3.3                      |
+| Airflow (LFM)         | 250                      |
+| Heat Sink             | medium (Medium Profile)  |
+| ThetaSA (C/W)         | 4.6                      |
+| Board Selection       | medium (10"x10")         |
+| # of Board Layers     | 12to15 (12 to 15 Layers) |
+| Board Temperature (C) | 25.0                     |
++-----------------------+--------------------------+
+
+
+2.2 Clock Constraints
+---------------------
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
+| Clock                                                                                                                                                     | Domain                                                                                                                                                                                                          | Constraint (ns) |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
+| clk_out1_harnessSysPLLNode                                                                                                                                | harnessSysPLLNode/inst/clk_out1_harnessSysPLLNode                                                                                                                                                               |            20.0 |
+| clk_out1_harnessSysPLLNode                                                                                                                                | serial_tl_clock_out                                                                                                                                                                                             |            20.0 |
+| clk_out2_harnessSysPLLNode                                                                                                                                | harnessSysPLLNode/inst/clk_out2_harnessSysPLLNode                                                                                                                                                               |            10.0 |
+| clk_out3_harnessSysPLLNode                                                                                                                                | harnessSysPLLNode/inst/clk_out3_harnessSysPLLNode                                                                                                                                                               |             5.0 |
+| clk_pll_i                                                                                                                                                 | mig/island/blackbox/u_nexysvideomig_mig/u_ddr3_infrastructure/clk_pll_i                                                                                                                                         |            10.0 |
+| clkfbout_harnessSysPLLNode                                                                                                                                | harnessSysPLLNode/inst/clkfbout_harnessSysPLLNode                                                                                                                                                               |            10.0 |
+| freq_refclk                                                                                                                                               | mig/island/blackbox/u_nexysvideomig_mig/u_ddr3_infrastructure/freq_refclk                                                                                                                                       |             1.2 |
+| iserdes_clkdiv                                                                                                                                            | mig/island/blackbox/u_nexysvideomig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/iserdes_clkdiv            |            10.0 |
+| iserdes_clkdiv_1                                                                                                                                          | mig/island/blackbox/u_nexysvideomig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/iserdes_clkdiv            |            10.0 |
+| mem_refclk                                                                                                                                                | mig/island/blackbox/u_nexysvideomig_mig/u_ddr3_infrastructure/mem_refclk                                                                                                                                        |             2.5 |
+| oserdes_clk                                                                                                                                               | mig/island/blackbox/u_nexysvideomig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/oserdes_clk               |             2.5 |
+| oserdes_clk_1                                                                                                                                             | mig/island/blackbox/u_nexysvideomig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/oserdes_clk               |             2.5 |
+| oserdes_clk_2                                                                                                                                             | mig/island/blackbox/u_nexysvideomig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/oserdes_clk               |             2.5 |
+| oserdes_clk_3                                                                                                                                             | mig/island/blackbox/u_nexysvideomig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/oserdes_clk               |             2.5 |
+| oserdes_clkdiv                                                                                                                                            | mig/island/blackbox/u_nexysvideomig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/oserdes_clkdiv            |            10.0 |
+| oserdes_clkdiv_1                                                                                                                                          | mig/island/blackbox/u_nexysvideomig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/oserdes_clkdiv            |            10.0 |
+| oserdes_clkdiv_2                                                                                                                                          | mig/island/blackbox/u_nexysvideomig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/oserdes_clkdiv            |             5.0 |
+| oserdes_clkdiv_3                                                                                                                                          | mig/island/blackbox/u_nexysvideomig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/oserdes_clkdiv            |             5.0 |
+| pll_clk3_out                                                                                                                                              | mig/island/blackbox/u_nexysvideomig_mig/u_ddr3_infrastructure/pll_clk3_out                                                                                                                                      |            10.0 |
+| pll_clkfbout                                                                                                                                              | mig/island/blackbox/u_nexysvideomig_mig/u_ddr3_infrastructure/pll_clkfbout                                                                                                                                      |            10.0 |
+| sync_pulse                                                                                                                                                | mig/island/blackbox/u_nexysvideomig_mig/u_ddr3_infrastructure/sync_pulse                                                                                                                                        |            40.0 |
+| sys_clock                                                                                                                                                 | sys_clock                                                                                                                                                                                                       |            10.0 |
+| u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/iserdes_clk | mig/island/blackbox/u_nexysvideomig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/phaser_in_gen.phaser_in_0 |             2.5 |
+| u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/iserdes_clk | mig/island/blackbox/u_nexysvideomig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/phaser_in_gen.phaser_in_0 |             2.5 |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
+
+
+3. Detailed Reports
+-------------------
+
+3.1 By Hierarchy
+----------------
+
++------------------------+-----------+
+| Name                   | Power (W) |
++------------------------+-----------+
+| NexysVideoHarness      |     0.799 |
+|   chiptop0             |     0.006 |
+|     system             |     0.006 |
+|       fbus             |     0.003 |
+|       serial_tl_domain |     0.002 |
+|   harnessSysPLLNode    |     0.108 |
+|     inst               |     0.108 |
+|   mig                  |     0.683 |
+|     axi4asource        |     0.002 |
+|     deint              |     0.002 |
+|     island             |     0.677 |
+|       axi4asink        |     0.003 |
+|       blackbox         |     0.674 |
++------------------------+-----------+
+
+
