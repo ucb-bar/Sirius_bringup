@@ -252,8 +252,42 @@ Entire board is GND stiched with 4mm spacing vias.
 Design the bumpmap / interposer with PCB routing in mind! Put high speed signals or nets that require wide traces around the edge of the pin map.
 
 
+# FPGA Bringup Procedure
+
+1. build program in `~/Desktop/chipyard/tests/` folder.
+
+2. power on the chip and FPGA.
+
+3. program the chip:
+
+TSI baudrate defaults to be 115200
 
 
+uart_tsi
+```bash
+./uart_tsi +tty=/dev/ttyUSB0 +cflush???=??????? ~/Desktop/chipyard/tests/hello.riscv 
+```
 
+pyuartsi
+
+```bash
+python -m pyuartsi --port /dev/ttyUSB0 --elf ~/Desktop/chipyard/tests/mt-hello.riscv --load --selfcheck --hart0_msip --fesvr --cflush_addr 0x02010200
+```
+
+Source code of pyuartsi is located at `~/Desktop/pytsi`
+
+4. debugging
+
+reading from chip scratchpad
+
+```bash
+python -m pyuartsi --port /dev/ttyUSB0 --init_read 0x08000000
+```
+
+writing to the chip scratchpad
+
+```bash
+python -m pyuartsi --port /dev/ttyUSB0 --init_write 0x08000000:0xdeadbeef
+```
 
 
