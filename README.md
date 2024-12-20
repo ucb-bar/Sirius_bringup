@@ -15,6 +15,26 @@ This project serves as PCB bringup for the Cygnus chip taped-out in 2024 Q2. The
 [Altium 365](https://ucb-bar.365.altium.com/designs/48DF959B-C662-42B1-99D3-1AA11DF22FD2#design)
 
 
+## PCB Timeline
+
+| Task                                | Start Date  | Duration       |
+| ----------------------------------- | ----------- | -------------- |
+| "We need to start thinking about the PCB design" | 2024-10-17 | -  |
+| PCB high level planning             | 2024-10-25  | 2 hrs          |
+| Symbols and footprints              | 2024-10-28  | 3 days         |
+| Schematic                           | 2024-10-31  | 2 weeks        |
+| Schematic Review Meeting            | 2024-11-14  | -              |
+| Layout & routing                    | 2024-11-14  | 7 hrs          |
+| PCB Review Meeting                  | 2024-11-18  | -              |
+| Order sent to JLC                   | 2024-11-19  | -              |
+| Order confirmation                  | 2024-11-20  | -              |
+| PCB production                      | 2024-11-20  | 13 days        |
+| SMT assembly                        | 2024-12-01  | 2 days         |
+| Shipping                            | 2024-12-03  | 1 day          |
+| Receive PCB                         | 2024-12-04  | -              |
+| Power-on testing                    | 2024-12-11  | 4 hrs          |
+
+
 ## Test plan
 
 TBD
@@ -250,6 +270,18 @@ Entire board is GND stiched with 4mm spacing vias.
 ## Feedback for future chips
 
 Design the bumpmap / interposer with PCB routing in mind! Put high speed signals or nets that require wide traces around the edge of the pin map.
+
+# Order information
+
+PCB Production
+![image](https://github.com/user-attachments/assets/543e62a0-d806-4e71-8d89-1bbdb5727d1b)
+
+SMT Assembly
+![image](https://github.com/user-attachments/assets/b6c743f8-0fea-46c1-8f33-290ae3dcc5ca)
+
+Shipping
+![image](https://github.com/user-attachments/assets/64c6adf3-55d5-4e31-9057-12d1fe845721)
+
 
 
 # FPGA Bringup Procedure
