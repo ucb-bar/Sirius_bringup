@@ -35,11 +35,6 @@ This project serves as PCB bringup for the Cygnus chip taped-out in 2024 Q2. The
 | Power-on testing                    | 2024-12-11  | 4 hrs          |
 
 
-## Test plan
-
-TBD
-
-
 ## Bringup FPGA
 
 2x [Digilent Nexys Video](https://digilent.com/shop/nexys-video-artix-7-fpga-trainer-board-for-multimedia-applications/)
@@ -84,7 +79,7 @@ TBD
 | DLL_IBIAS_MAIN_U1 | Chiplet 1 DLL analog bias current | This bump is used to supply a bias current to all the circuits in the analog section |
 | GND    | Ground                    | Single ground shorted together |
 
-There's two LDOs on board that converts 3.3 V from FMC to 1.2 V and 0.85 V. The LDO is capable of 1A output.
+~There's two LDOs on board that converts 3.3 V from FMC to 1.2 V and 0.85 V. The LDO is capable of 1A output.~
 
 
 ### Clocking
@@ -274,12 +269,15 @@ Design the bumpmap / interposer with PCB routing in mind! Put high speed signals
 # Order information
 
 PCB Production
+
 ![image](https://github.com/user-attachments/assets/543e62a0-d806-4e71-8d89-1bbdb5727d1b)
 
 SMT Assembly
+
 ![image](https://github.com/user-attachments/assets/b6c743f8-0fea-46c1-8f33-290ae3dcc5ca)
 
 Shipping
+
 ![image](https://github.com/user-attachments/assets/64c6adf3-55d5-4e31-9057-12d1fe845721)
 
 
