@@ -280,6 +280,11 @@ Shipping
 
 ![image](https://github.com/user-attachments/assets/64c6adf3-55d5-4e31-9057-12d1fe845721)
 
+## Video Recap
+
+[![Watch the video](https://github.com/user-attachments/assets/28e2415c-1476-4fd4-b296-e0a7711d1ef8)
+](https://www.youtube.com/watch?v=jHQ6a392gPo)
+
 
 
 # FPGA Bringup Procedure
