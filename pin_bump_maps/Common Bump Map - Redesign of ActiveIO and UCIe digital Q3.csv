@@ -1,0 +1,105 @@
+Y\X,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+50,PRS CORNER,iodiff_40_n_q4,,iodiff_39_n_q4,,iodiff_37_n_q4,,iodiff_35_n_q4,,iodiff_33_n_q4,,iodiff_31_n_q4,,iodiff_29_n_q4,,iodiff_27_n_q4,,iodiff_25_n_q4,,iodiff_23_n_q4,,iodiff_21_n_q4,,iodiff_19_n_q4,,iodiff_19_n_q2,,iodiff_21_n_q2,,iodiff_23_n_q2,,iodiff_25_n_q2,,iodiff_27_n_q2,,iodiff_29_n_q2,,iodiff_31_n_q2,,iodiff_33_n_q2,,iodiff_35_n_q2,,iodiff_37_n_q2,,iodiff_39_n_q2,,iodiff_40_n_q2,PRS CORNER
+,,,,,,,,BT0 DQ2 8 51,,BT0 DQ4 10 51,,dll_ibias_main 12 51,,BT1 DQ2 14 51,,BT1 DQ4 16 51,,RX_VREF 18 51,,CA DQ2 20 51,,CA DQ4 22 51,,VDD_PRE 24 51,,vss,,rxdata0_q2 28_51,,vss,,vss,,rxdata15_q2 34_51,,vss,,txdata12_q2 38_51,,txdata3_q2 40_51,,vss,,vss,,,,,
+49,iodiff_41_n_q4,,vss,,iodiff_38_n_q4,,iodiff_36_n_q4,,iodiff_34_n_q4,,iodiff_32_n_q4,,iodiff_30_n_q4,,iodiff_28_n_q4,,iodiff_26_n_q4,,iodiff_24_n_q4,,iodiff_22_n_q4,,iodiff_20_n_q4,,,,iodiff_20_n_q2,,iodiff_22_n_q2,,iodiff_24_n_q2,,iodiff_26_n_q2,,iodiff_28_n_q2,,iodiff_30_n_q2,,iodiff_32_n_q2,,iodiff_34_n_q2,,iodiff_36_n_q2,,iodiff_38_n_q2,,vss,,iodiff_41_n_q2
+,,,,,,,BT0 DQ0 7 50,,BT0 DQS_C 9 50,,BT0 DQ6 11 50,,BT1 DQ0 13 50,,BT1 DQS_C 15 50,,BT1 DQ6 17 50,,CA DQ0 19 50,,CA CKC 21 50,,VDD_PRE 23 50,,,,rxsbd_q2 27_50,,rxdata2_q2 29_50,,rxvld_q2 31_50,,rxdata14_q2 33_50,,vss,,txdata13_q2 37_50,,txtrk_q2 39_50,,txdata1_q2 41_50,,txsbc_q2 43_50,,,,,,
+48,,iodiff_40_p_q4,,iodiff_39_p_q4,,iodiff_37_p_q4,,iodiff_35_p_q4,,iodiff_33_p_q4,,iodiff_31_p_q4,,iodiff_29_p_q4,,iodiff_27_p_q4,,iodiff_25_p_q4,,iodiff_23_p_q4,,iodiff_21_p_q4,,iodiff_19_p_q4,,iodiff_19_p_q2,,iodiff_21_p_q2,,iodiff_23_p_q2,,iodiff_25_p_q2,,iodiff_27_p_q2,,iodiff_29_p_q2,,iodiff_31_p_q2,,iodiff_33_p_q2,,iodiff_35_p_q2,,iodiff_37_p_q2,,iodiff_39_p_q2,,iodiff_40_p_q2,
+,,,,,,,,BT0 DQ3 8 49,,BT0 DQ5 10 49,,dll_vinit 12 49,,BT1 DQ3 14 49,,BT1 DQ5 16 49,,BUF_BANK_IBIAS 18 49,,CA DQ3 20 49,,CA DQ5 22 49,,VDD_PRE 24 49,,vddh_q2,,vss,,rxdata3_q2 30_49,,rxdata12_q2 32_49,,vss,,txdata15_q2 36_49,,vss,,vss,,txdata0_q2 42_49,,vddh_q2,,,,,
+47,iodiff_41_p_q4,,vss,,iodiff_38_p_q4,,iodiff_36_p_q4,,iodiff_34_p_q4,,iodiff_32_p_q4,,iodiff_30_p_q4,,iodiff_28_p_q4,,iodiff_26_p_q4,,iodiff_24_p_q4,,iodiff_22_p_q4,,iodiff_20_p_q4,,,,iodiff_20_p_q2,,iodiff_22_p_q2,,iodiff_24_p_q2,,iodiff_26_p_q2,,iodiff_28_p_q2,,iodiff_30_p_q2,,iodiff_32_p_q2,,iodiff_34_p_q2,,iodiff_36_p_q2,,iodiff_38_p_q2,,vss,,iodiff_41_p_q2
+,,,,,,,BT0 DQ1 7 48,,BT0 DQS_T 9 48,,BT0 DQ7 11 48,,BT1 DQ1 13 48,,BT1 DQS_T 15 48,,BT1 DQ7 17 48,,CA DQ1 19 48,,CA CKT 21 48,,CA CS 23 48,,,,rxsbc_q2 27_48,,rxdata1_q2 29_48,,rxtrk_q2 31_48,,rxdata13_q2 33_48,,vss,,txdata14_q2 37_48,,txvld_q2 39_48,,txdata2_q2 41_48,,txsbd_q2 43_48,,,,,,
+46,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+45,vddh_q4,,vss,,vddh_q4,,vddh_q4,,vddh_q4,,vddh_q4,,vddh_q4,,vddh_q4,,vddh_q4,,vddh_q4,,vddh_q4,,vddh_q4,,,,vddh_q2,,vddh_q2,,vddh_q2,,vddh_q2,,vddh_q2,,vddh_q2,,vddh_q2,,vddh_q2,,vddh_q2,,vddh_q2,,vss,,vddh_q2
+,VDDQ,,,,VDDQ,,VDDQ,,VDDQ,,VDDQ,,VDDQ,,VDDQ,,VDDQ,,VDDQ,,VDDQ,,VDDQ,,,,,,,,,,,,,,,,,,,,,,,,,,
+44,,vss,,vss,,vddv_q4,,iodiff_17_n_q4,,iodiff_15_n_q4,,iodiff_13_n_q4,,iodiff_11_n_q4,,iodiff_9_n_q4,,iodiff_7_n_q4,,iodiff_5_n_q4,,iodiff_3_n_q4,,iodiff_1_n_q4,,iodiff_1_n_q2,,iodiff_3_n_q2,,iodiff_5_n_q2,,iodiff_7_n_q2,,iodiff_9_n_q2,,iodiff_11_n_q2,,iodiff_13_n_q2,,iodiff_15_n_q2,,iodiff_17_n_q2,,vddv_q2,,vss,,vss,
+,,,,,,,,VDD_PRE 8 45,,VDD_PRE 10 45,,VDD_PRE 12 45,,VDD_PRE,,VDD_PRE,,VDD_PRE,,VDD_PRE,,VDD_PRE,,,,vss,,rxdata4_q2 28_45,,vss,,vss,,rxdata11_q2 34_45,,vss,,txdata8_q2 38_45,,txdata7_q2 40_45,,vss,,,,,,,
+43,hsdiff_18_n_q4,,vss,,hsdiff_9_n_q4,,iodiff_18_n_q4,,iodiff_16_n_q4,,iodiff_14_n_q4,,iodiff_12_n_q4,,iodiff_10_n_q4,,iodiff_8_n_q4,,iodiff_6_n_q4,,iodiff_4_n_q4,,iodiff_2_n_q4,,,,iodiff_2_n_q2,,iodiff_4_n_q2,,iodiff_6_n_q2,,iodiff_8_n_q2,,iodiff_10_n_q2,,iodiff_12_n_q2,,iodiff_14_n_q2,,iodiff_16_n_q2,,iodiff_18_n_q2,,hsdiff_9_n_q2,,vss,,hsdiff_18_n_q2
+,,,,,,,VDD_PRE 7 44,,VDD_PRE 9 44,,VDD_PRE 11 44,,VDD_PRE 13 44,,VDD_PRE,,VDD_PRE,,VDD_PRE,,VDD_PRE,,VDD_PRE 23 44,,,,vss,,rxdata6_q2 29_44,,rxckn_q2 31_44,,rxdata10_q2 33_44,,vddh_q2,,txdata9_q2 37_44,,txckp_q2 39_44,,txdata5_q2 41_44,,vss,,,,,,
+42,,hsdiff_18_p_q4,,hsdiff_9_p_q4,,vddv_q4,,iodiff_17_p_q4,,iodiff_15_p_q4,,iodiff_13_p_q4,,iodiff_11_p_q4,,iodiff_9_p_q4,,iodiff_7_p_q4,,iodiff_5_p_q4,,iodiff_3_p_q4,,iodiff_1_p_q4,,iodiff_1_p_q2,,iodiff_3_p_q2,,iodiff_5_p_q2,,iodiff_7_p_q2,,iodiff_9_p_q2,,iodiff_11_p_q2,,iodiff_13_p_q2,,iodiff_15_p_q2,,iodiff_17_p_q2,,vddv_q2,,hsdiff_9_p_q2,,hsdiff_18_p_q2,
+,,,,,,,,VDD_PRE 8 43,,VDD_PRE 10 43,,VDD_PRE 12 43,,VDD_PRE ,,VDD_PRE,,VDD_PRE,,VDD_PRE,,VDD_PRE,,,,vss,,vss,,rxdata7_q2 30_43,,rxdata8_q2 32_43,,vss,,txdata11_q2 36_43,,vss,,vss,,txdata4_q2 42_43,,,,,,,
+41,hsdiff_17_n_q4,,vss,,hsdiff_8_n_q4,,iodiff_18_p_q4,,iodiff_16_p_q4,,iodiff_14_p_q4,,iodiff_12_p_q4,,iodiff_10_p_q4,,iodiff_8_p_q4,,iodiff_6_p_q4,,iodiff_4_p_q4,,iodiff_2_p_q4,,,,iodiff_2_p_q2,,iodiff_4_p_q2,,iodiff_6_p_q2,,iodiff_8_p_q2,,iodiff_10_p_q2,,iodiff_12_p_q2,,iodiff_14_p_q2,,iodiff_16_p_q2,,iodiff_18_p_q2,,hsdiff_8_n_q2,,vss,,hsdiff_17_n_q2
+,uart_txd 1_42,,,,,,VDD_PRE 7 42,,VDD_PRE 9 42,,VDD_PRE 11 42,,VDD_PRE 13 42,,VDD_PRE,,VDD_PRE,,VDD_PRE,,VDD_PRE,,VDD_PRE 23 42,,,,vss,,rxdata5_q2 29_42,,rxckp_q2 31_42,,rxdata9_q2 33_42,,vddh_q2,,txdata10_q2 37_42,,txckn_q2 39_42,,txdata6_q2 41_42,,vss,,,,,,ucie_sel 49_42
+40,,hsdiff_17_p_q4,,hsdiff_8_p_q4,,vddv_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vddv_q2,,hsdiff_8_p_q2,,hsdiff_17_p_q2,
+,,uart_rxd 2_41,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,obus_sel 48_41,
+39,hsdiff_16_n_q4,,vss,,hsdiff_8_n_q4,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,hsdiff_8_n_q2,,vss,,hsdiff_16_n_q2
+,c2c_sertl_out_bits3 1_40,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,obus_sel 49_40
+38,11 2,hsdiff_16_p_q4,,hsdiff_8_p_q4,,vddv_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vddv_q2,,hsdiff_8_p_q2,,hsdiff_16_p_q2,
+,,c2c_sertl_out_bits2 2_39,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ddr2 48_39,
+37,hsdiff_15_n_q4,11 0,vss,,hsdiff_7_n_q4,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,hsdiff_7_n_q2,,vss,,hsdiff_15_n_q2
+,c2c_sertl_out_bits1 1_38,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ddr3 49_38
+36,12 2,hsdiff_15_p_q4,,hsdiff_7_p_q4,,vddv_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vddv_q2,,hsdiff_7_p_q2,,hsdiff_15_p_q2,
+,,c2c_sertl_out_bits0 2_37,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ddr4 48_37,
+35,hsdiff_14_n_q4,12 0,vss,,hsdiff_6_n_q4,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,hsdiff_6_n_q2,,vss,,hsdiff_14_n_q2
+,c2c_sertl_reset_out 1_36,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ddr5 49_36
+34,13 2,hsdiff_14_p_q4,,hsdiff_6_p_q4,,vddv_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vddv_q2,,hsdiff_6_p_q2,,hsdiff_14_p_q2,
+,,c2c_sertl_clock_out 2_35,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ddr6 48_35,
+33,hsdiff_13_n_q4,13 0,vss,,hsdiff_4_n_q4,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,hsdiff_4_n_q2,,vss,,hsdiff_13_n_q2
+,c2c_sertl_out_valid  1_34,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ddr7 49_34
+32,14 2,hsdiff_13_p_q4,,hsdiff_4_p_q4,,vddv_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vddv_q2,,hsdiff_4_p_q2,,hsdiff_13_p_q2,
+,,c2c_sertl_in_valid 2_33,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ddr8 48_33,
+31,hsdiff_12_n_q4,14 0,vss,,hsdiff_3_n_q4,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,hsdiff_3_n_q2,,vss,,hsdiff_12_n_q2
+,c2c_sertl_in_bits3 1_32,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ddr9 49_32
+30,15 2,hsdiff_12_p_q4,,hsdiff_3_p_q4,,vddv_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vddv_q2,,hsdiff_3_p_q2,,hsdiff_12_p_q2,
+,,c2c_sertl_in_bits2 2_31,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ddr10 48_31,
+29,hsdiff_11_n_q4,15 0,vss,,hsdiff_2_n_q4,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,hsdiff_2_n_q2,,vss,,hsdiff_11_n_q2
+,c2c_sertl_in_bits1 1_30,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ddr11 49_30
+28,16 2,hsdiff_11_p_q4,,hsdiff_2_p_q4,,vddv_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vddv_q2,,hsdiff_2_p_q2,,hsdiff_11_p_q2,
+,,c2c_sertl_in_bits0 2_29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ddr12 48_29,
+27,hsdiff_10_n_q4,16 0,vss,,hsdiff_1_n_q4,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,hsdiff_1_n_q2,,vss,,hsdiff_10_n_q2
+,c2c_sertl_clock_in 1_28,17 0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ddr13 49_28
+26,17 2,hsdiff_10_p_q4,,hsdiff_1_p_q4,,vddv_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q4,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vdd_q2,,vddv_q2,,hsdiff_1_p_q2,,hsdiff_10_p_q2,
+,,c2c_sertl_reset_in 2_27,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ddr14 48_27,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+25,,hsdiff_10_p_q3,,hsdiff_1_p_q3,,vddv_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vddv_q1,,hsdiff_1_p_q1,,hsdiff_10_p_q1,
+,,reset 2_25,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,jtag_tms_q1,
+24,hsdiff_10_n_q3,8 0,vss,,hsdiff_1_n_q3,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,hsdiff_1_n_q1,,vss,,hsdiff_10_n_q1
+,clock 1_24,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,jtag_tdo_q1
+23,8 2,hsdiff_11_p_q3,,hsdiff_2_p_q3,,vddv_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vddv_q1,,hsdiff_2_p_q1,,hsdiff_11_p_q1,
+,,refclk 2_23,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,jtag_tdi_q1,
+22,hsdiff_11_n_q3,7 0,vss,,hsdiff_2_n_q3,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,hsdiff_2_n_q1,,vss,,hsdiff_11_n_q1
+,plltap 1_22,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,jtag_tck_q1
+21,7 2,hsdiff_12_p_q3,,hsdiff_3_p_q3,,vddv_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vddv_q1,,hsdiff_3_p_q1,,hsdiff_12_p_q1,
+,,serial_tl_out_bits0 2_21,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,uart_rx_q1,
+20,hsdiff_12_n_q3,6 0,vss,,hsdiff_3_n_q3,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,hsdiff_3_n_q1,,vss,,hsdiff_12_n_q1
+,serial_tl_in_bits0 1_20,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,uart_tx_q1
+19,6 2,hsdiff_13_p_q3,,hsdiff_4_p_q3,,vddv_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vddv_q1,,hsdiff_4_p_q1,,hsdiff_13_p_q1,
+,,serial_tl_out_rdy 2_19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,serial_tl_out_data_q1,
+18,hsdiff_13_n_q3,5 0,vss,,hsdiff_4_n_q3,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,hsdiff_4_n_q1,,vss,,hsdiff_13_n_q1
+,serial_tl_out_vld 1_18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,serial_tl_out_rdy_q1
+17,5 2,hsdiff_14_p_q3,,hsdiff_5_p_q3,,vddv_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vddv_q1,,hsdiff_5_p_q1,,hsdiff_14_p_q1,
+,,serial_tl_in_vld 2_17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,serial_tl_out_vld_q1,
+16,hsdiff_14_n_q3,4 0,vss,,hsdiff_5_n_q3,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,hsdiff_5_n_q1,,vss,,hsdiff_14_n_q1
+,serial_tl_clock 1_16,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,serial_tl_in_data_q1
+15,4 2,hsdiff_15_p_q3,,hsdiff_6_p_q3,,vddv_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vddv_q1,,hsdiff_6_p_q1,,hsdiff_15_p_q1,
+,,serial_tl_in_rdy 2_15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,serial_tl_in_rdy_q1,
+14,hsdiff_15_n_q3,3 0,vss,,hsdiff_6_n_q3,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,hsdiff_6_n_q1,,vss,,hsdiff_15_n_q1
+,jtag_rst 1_14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,serial_tl_in_vld_q1
+13,3 2,hsdiff_16_p_q3,,hsdiff_7_p_q3,,vddv_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vddv_q1,,hsdiff_7_p_q1,,hsdiff_16_p_q1,
+,,jtag_tck 2_13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,serial_tl_clk_q1,
+12,hsdiff_16_n_q3,2 0,vss,,hsdiff_7_n_q3,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,hsdiff_7_n_q1,,vss,,hsdiff_16_n_q1
+,jtag_tms 1_12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pll_ref_clk_q1
+11,2 2,hsdiff_17_p_q3,,hsdiff_8_p_q3,,vddv_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q3,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vdd_q1,,vddv_q1,,hsdiff_8_p_q1,,hsdiff_17_p_q1,
+,,jtag_tdo 2_11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,reset_q1,
+10,hsdiff_17_n_q3,1 0,vss,,hsdiff_8_n_q3,,iodiff_18_p_q3,,iodiff_16_p_q3,,iodiff_14_p_q3,,iodiff_12_p_q3,,iodiff_10_p_q3,,iodiff_8_p_q3,,iodiff_6_p_q3,,iodiff_4_p_q3,,iodiff_2_p_q3,,,,iodiff_2_p_q1,,iodiff_4_p_q1,,iodiff_6_p_q1,,iodiff_8_p_q1,,iodiff_10_p_q1,,iodiff_12_p_q1,,iodiff_14_p_q1,,iodiff_16_p_q1,,iodiff_18_p_q1,,hsdiff_8_n_q1,,vss,,hsdiff_17_n_q1
+,jtag tdi 1_10,,,,,,vss,,txdata6_q3 9_10,,txckn_q3 11_10,,txdata10_q3 13_10,,vddh_q3,,rxdata9_q3 17_10,,rxckp_q3 19_10,,rxdata5_q3 21_10,,vss,,,,vss,,txdata6_q1,,txckn_q1,,txdata10_q1,,vddh_q1,,rxdata9_q1,,rxckp_q1,,rxdata5_q1,,vss,,,,,,clock_q1
+9,1 2,hsdiff_18_p_q3,,hsdiff_9_p_q3,,vddv_q3,,iodiff_17_p_q3,,iodiff_15_p_q3,,iodiff_13_p_q3,,iodiff_11_p_q3,,iodiff_9_p_q3,,iodiff_7_p_q3,,iodiff_5_p_q3,,iodiff_3_p_q3,,iodiff_1_p_q3,,iodiff_1_p_q1,,iodiff_3_p_q1,,iodiff_5_p_q1,,iodiff_7_p_q1,,iodiff_9_p_q1,,iodiff_11_p_q1,,iodiff_13_p_q1,,iodiff_15_p_q1,,iodiff_17_p_q1,,vddv_q1,,hsdiff_9_p_q1,,hsdiff_18_p_q1,
+,,,,,,,,txdata4_q3 8_9,,vss,,vddh_q3,,txdata11_q3 14_9,,vss,,rxdata8_q3 18_9,,rxdata7 20_9,,vss,,vddh_q3,,,,txdata4_q1,,vss,,vss,,txdata11_q1,,vss,,rxdata8_q1,,rxdata7_q1,,vss,,,,,,,
+8,hsdiff_18_n_q3,,vss,,hsdiff_9_n_q3,,iodiff_18_n_q3,,iodiff_16_n_q3,,iodiff_14_n_q3,,iodiff_12_n_q3,,iodiff_10_n_q3,,iodiff_8_n_q3,,iodiff_6_n_q3,,iodiff_4_n_q3,,iodiff_2_n_q3,,,,iodiff_2_n_q1,,iodiff_4_n_q1,,iodiff_6_n_q1,,iodiff_10_n_q1,,iodiff_10_n_q1,,iodiff_12_n_q1,,iodiff_14_n_q1,,iodiff_16_n_q1,,iodiff_18_n_q1,,hsdiff_9_n_q1,,vss,,hsdiff_18_n_q1
+,,,,,,,vss,,txdata5_q3 9_8,,txckp_q3 11_8,,txdata9_q3 13_8,,vddh_q3,,rxdata10_q3 17_8,,rxckn_q3 19_8,,rxdata6_q3 21_8,,vss,,,,vss,,txdata5_q1,,txckp_q1,,txdata9_q1,,vddh_q1,,rxdata10_q1,,rxckn_q1,,rxdata6_q1,,vss,,,,,,
+7,,vss,,vss,,vddv_q3,,iodiff_17_n_q3,,iodiff_15_n_q3,,iodiff_13_n_q3,,iodiff_11_n_q3,,iodiff_9_n_q3,,iodiff_7_n_q3,,iodiff_5_n_q3,,iodiff_3_n_q3,,iodiff_1_n_q3,,iodiff_1_n_q1,,iodiff_3_n_q1,,iodiff_5_n_q1,,iodiff_7_n_q1,,iodiff_9_n_q1,,iodiff_11_n_q1,,iodiff_13_n_q1,,iodiff_15_n_q1,,iodiff_17_n_q1,,vddv_q1,,vss,,vss,
+,,,,,,,,vss,,txdata7_q3 10_7,,txdata8_q3 12_7,,vss,,rxdata11_q3 16_7,,vss,,vss,,rxdata4_q3 22_7,,vss,,,,vss,,txdata7_q1,,txdata8_q1,,vss,,rxdata11_q1,,vss,,vss,,rxdata4_q1,,,,,,,
+6,vddh_q3,,vss,,vddh_q3,,vddh_q3,,vddh_q3,,vddh_q3,,vddh_q3,,vddh_q3,,vddh_q3,,vddh_q3,,vddh_q3,,vddh_q3,,,,vddh_q1,,vddh_q1,,vddh_q1,,vddh_q1,,vddh_q1,,vddh_q1,,vddh_q1,,vddh_q1,,vddh_q1,,vddh_q1,,vss,,vddh_q1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+5,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,,vss,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+4,iodiff_41_p_q3,,vss,,iodiff_38_p_q3,,iodiff_36_p_q3,,iodiff_34_p_q3,,iodiff_32_p_q3,,iodiff_30_p_q3,,iodiff_28_p_q3,,iodiff_26_p_q3,,iodiff_24_p_q3,,iodiff_22_p_q3,,iodiff_20_p_q3,,,,iodiff_20_p_q1,,iodiff_22_p_q1,,iodiff_24_p_q1,,iodiff_26_p_q1,,iodiff_28_p_q1,,iodiff_30_p_q1,,iodiff_32_p_q1,,iodiff_34_p_q1,,iodiff_36_p_q1,,iodiff_38_p_q1,,vss,,iodiff_41_p_q1
+,,,,,,,txsbd_q3 7_4,,txdata2_q3 9_4,,txvld_q3 11_4,,txdata14_q3 13_4,,vss,,rxdata13_q3 17_4,,rxtrk_q3 19_4,,rxdata1_q3 21_4,,rxsbc_q3 23_4,,,,txsbd_q1,,txdata2_q1,,txvld_q1,,txdata14_q1,,vss,,rxdata13_q1,,rxtrk_q1,,rxdata1_q1,,rxsbc_q1,,,,,,
+3,,iodiff_40_p_q3,,iodiff_39_p_q3,,iodiff_37_p_q3,,iodiff_35_p_q3,,iodiff_33_p_q3,,iodiff_31_p_q3,,iodiff_29_p_q3,,iodiff_27_p_q3,,iodiff_25_p_q3,,iodiff_23_p_q3,,iodiff_21_p_q3,,iodiff_19_p_q3,,iodiff_19_p_q1,,iodiff_21_p_q1,,iodiff_23_p_q1,,iodiff_25_p_q1,,iodiff_27_p_q1,,iodiff_29_p_q1,,iodiff_31_p_q1,,iodiff_33_p_q1,,iodiff_35_p_q1,,iodiff_37_p_q1,,iodiff_39_p_q1,,iodiff_40_p_q1,
+,,,,,,vddh_q3,,txdata0_q3 8_3,,vss,,vss,,txdata15_q3 14_3,,vss,,rxdata12_q3 18_3,,rxdata3_q3 20_3,,vss,,vddh_q3,,vddh_q1,,txdata0_q1,,vss,,vss,,txdata15_q1,,vss,,rxdata12_q1,,rxdata3_q1,,vss,,vddh_q1,,,,,
+2,iodiff_41_n_q3,,vss,,iodiff_38_n_q3,,iodiff_36_n_q3,,iodiff_34_n_q3,,iodiff_32_n_q3,,iodiff_30_n_q3,,iodiff_28_n_q3,,iodiff_26_n_q3,,iodiff_24_n_q3,,iodiff_22_n_q3,,iodiff_20_n_q3,,,,iodiff_20_n_q1,,iodiff_22_n_q1,,iodiff_24_n_q1,,iodiff_26_n_q1,,iodiff_28_n_q1,,iodiff_30_n_q1,,iodiff_32_n_q1,,iodiff_34_n_q1,,iodiff_36_n_q1,,iodiff_38_n_q1,,vss,,iodiff_41_n_q1
+,,,,,,,txsbc_q3  7_2,,txdata1_q3 9_2,,txtrk_q3 11_2,,txdata13_q3 13_2,,vss,,rxdata14_q3 17_2,,rxvld_q3 19_2,,rxdata2_q3 21_2,,rxsbd_q3 23_2,,,,txsbc_q1,,txdata1_q1,,txtrk_q1,,txdata13_q1,,vss,,rxdata14_q1,,rxvld_q1,,rxdata2_q1,,rxsbd_q1,,,,,,
+1,PRS CORNER,iodiff_40_n_q3,,iodiff_39_n_q3,,iodiff_37_n_q3,,iodiff_35_n_q3,,iodiff_33_n_q3,,iodiff_31_n_q3,,iodiff_29_n_q3,,iodiff_27_n_q3,,iodiff_25_n_q3,,iodiff_23_n_q3,,iodiff_21_n_q3,,iodiff_19_n_q3,,iodiff_19_n_q1,,iodiff_21_n_q1,,iodiff_23_n_q1,,iodiff_25_n_q1,,iodiff_27_n_q1,,iodiff_29_n_q1,,iodiff_31_n_q1,,iodiff_33_n_q1,,iodiff_35_n_q1,,iodiff_37_n_q1,,iodiff_39_n_q1,,iodiff_40_n_q1,PRS CORNER
+,,,,,,vss,,vss,,txdata3_q3 10_1,,txdata12_q3 12_1,,vss,,rxdata15_q3 16_1,,vss,,vss,,rxdata0_q3 22_1,,vss,,vss,,vss,,txdata3_q1,,txdata12_q1,,vss,,rxdata15_q1,,vss,,vss,,rxdata0_q1,,vss,,,,,
+Y/X,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48

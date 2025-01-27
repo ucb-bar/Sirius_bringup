@@ -1,38 +1,19 @@
-# Cygnus bringup
+# Sirius bringup
 
-This project serves as PCB bringup for the Cygnus chip taped-out in 2024 Q2. The Cygnus chip is a pair of 4x4 $mm^2$ chiplets on the same package on a 16nm process. The chip is designed to be a low-power, high-performance chip for DSP computing applications, and to showcase scalability of the chiplet architecture for future AI applications.
-
-> **Note**
-> 
-> The Q2 Cygnus chip is especially confusing for PCB design, since it is a two-chiplet system packaged onto the same Intel UNI interposer. The Quadrant of the die is not one-to-one mapped to the Quadrant of the socket.
-> The mapping is described in the later section.
+This project serves as PCB bringup for the Sirius chip taped-out in 2024 Q3, Intel16 USP. Sirius (binary star) is a pair of 4x4 $mm^2$ chiplets on the same package . The chip is designed to be a high-performance platform for AI/ML computing applications, and to showcase scalability of the chiplet architecture and interconnect capability for future AI applications.
 
 
 ## Links
 
-[Notion page](https://www.notion.so/ucb-bar/Cygnus-Chip-4338e6796d24444783b53a87a6fd1d62?pvs=4)
-[G Drive](https://drive.google.com/drive/folders/1y1a1zUYG_vcYyiext1j9_DToTUSI0tfB?usp=drive_link)
-[Altium 365](https://ucb-bar.365.altium.com/designs/48DF959B-C662-42B1-99D3-1AA11DF22FD2#design)
+[G Drive](https://drive.google.com/drive/folders/1GL_Q8HkU-XlZhugEkRs6XLr12FDdKcfK?usp=drive_link)
+[Altium 365](https://ucb-bar.365.altium.com/designs/23BB8F26-26F5-4939-8407-A4EF6E1FDC51)
 
 
 ## PCB Timeline
 
 | Task                                | Start Date  | Duration       |
 | ----------------------------------- | ----------- | -------------- |
-| "We need to start thinking about the PCB design" | 2024-10-17 | -  |
-| PCB high level planning             | 2024-10-25  | 2 hrs          |
-| Symbols and footprints              | 2024-10-28  | 3 days         |
-| Schematic                           | 2024-10-31  | 2 weeks        |
-| Schematic Review Meeting            | 2024-11-14  | -              |
-| Layout & routing                    | 2024-11-14  | 7 hrs          |
-| PCB Review Meeting                  | 2024-11-18  | -              |
-| Order sent to JLC                   | 2024-11-19  | -              |
-| Order confirmation                  | 2024-11-20  | -              |
-| PCB production                      | 2024-11-20  | 13 days        |
-| SMT assembly                        | 2024-12-01  | 2 days         |
-| Shipping                            | 2024-12-03  | 1 day          |
-| Receive PCB                         | 2024-12-04  | -              |
-| Power-on testing                    | 2024-12-11  | 4 hrs          |
+| Forking from Cygnus and pin remapping | 2025-1-26 | -  |
 
 
 ## Bringup FPGA
@@ -105,6 +86,9 @@ This project serves as PCB bringup for the Cygnus chip taped-out in 2024 Q2. The
 - PLL tap debug clock out, can be muxed to output other clocks
 - feed out through 2.54 mm pin header.
 
+**UCIe clock**
+- 8GHz differential
+- Used to drive the UCIe interface
 
 ### Reset
 
@@ -266,28 +250,8 @@ Entire board is GND stiched with 4mm spacing vias.
 
 Design the bumpmap / interposer with PCB routing in mind! Put high speed signals or nets that require wide traces around the edge of the pin map.
 
-# Order information
 
-PCB Production
-
-![image](https://github.com/user-attachments/assets/543e62a0-d806-4e71-8d89-1bbdb5727d1b)
-
-SMT Assembly
-
-![image](https://github.com/user-attachments/assets/b6c743f8-0fea-46c1-8f33-290ae3dcc5ca)
-
-Shipping
-
-![image](https://github.com/user-attachments/assets/64c6adf3-55d5-4e31-9057-12d1fe845721)
-
-## Video Recap
-
-[![Watch the video](https://github.com/user-attachments/assets/28e2415c-1476-4fd4-b296-e0a7711d1ef8)
-](https://www.youtube.com/watch?v=jHQ6a392gPo)
-
-
-
-# FPGA Bringup Procedure
+<!-- # FPGA Bringup Procedure
 
 1. build program in `~/Desktop/chipyard/tests/` folder.
 
@@ -325,4 +289,4 @@ writing to the chip scratchpad
 python -m pyuartsi --port /dev/ttyUSB0 --init_write 0x08000000:0xdeadbeef
 ```
 
-
+ -->
