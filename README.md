@@ -14,6 +14,7 @@ This project serves as PCB bringup for the Sirius chip taped-out in 2024 Q3, Int
 | Task                                | Start Date  | Duration       |
 | ----------------------------------- | ----------- | -------------- |
 | Forking from Cygnus and pin remapping | 2025-1-26 | -  |
+| Schematic checking | 2025-2-4 | morning |
 
 
 ## Bringup FPGA
@@ -290,3 +291,14 @@ python -m pyuartsi --port /dev/ttyUSB0 --init_write 0x08000000:0xdeadbeef
 ```
 
  -->
+
+
+# Schematic Preliminary Review
+
+## u2 & u1
+LSB: 48_41
+MSB: 49_40
+
+Make a bigger header to accomodate obus MSB and LSB.
+New button for jtag reset.
+delete chip id select
