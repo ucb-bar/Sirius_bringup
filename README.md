@@ -165,9 +165,9 @@ All DDR digital signals broke out to a pin header. This is only present for chip
 | 5     | L5         | VDD_IO trace + GND pour                      |
 | 6     | L6         | DDR power + GND pour                         |
 | 7     | L7         | VDD_core U2                                  |
-| 8     | L8         | UCIE power trace + C2C signal + GND pour     |
+| 8     | L8         | UCIE power trace + GND pour     |
 | 9     | L9         | GND plane                                    |
-| 10    | L10        | UCIE clock, slow-speed interlayer signals    |
+| 10    | L10        | UCIE clock, C2C signal, slow-speed interlayer signals    |
 
 GND: add stiching between ground layers
 
